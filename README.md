@@ -6,15 +6,14 @@ In the context of a traffic control controller, an FSM (Finite State Machine) wi
 
 Suppose we have a traffic control controller with 4 states ("D" is 4):
 
-1. **State 1: Idle:** In this state, the traffic control controller is waiting for a change in traffic conditions or user input. It may simply be maintaining the current traffic light cycle.
+- *S0:* When traffic at A is High - light A is green and light B is red
+- *S1:* Buffer for transition of light A from green to yellow and light B remains red
+- *S2:* When traffic at B is High - light A is red and light B is green now
+- *S3:* Buffer for transition of light B from green to yellow and light  A remains red
 
-2. **State 2: Normal Operation:** This state represents the standard operation of the traffic lights, following a predefined traffic light cycle or pattern.
+Each state represents a different mode of operation for the traffic control system, and the controller transitions between these states based on predefined rules or conditions. 
 
-3. **State 3: Emergency Mode:** If there is an emergency, such as an ambulance or fire truck approaching, the controller may switch to this state, prioritizing the emergency vehicle's passage.
-
-4. **State 4: Maintenance Mode:** In this state, the controller is undergoing maintenance or reprogramming. It's temporarily taken out of active traffic control.
-
-Each state represents a different mode of operation for the traffic control system, and the controller transitions between these states based on predefined rules or conditions. For example, it may transition from "Normal Operation" to "Emergency Mode" when it detects sirens from an approaching emergency vehicle.
+![WhatsApp Image 2023-10-22 at 22 43 01](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/a0f4c2e8-03f9-4730-88a1-7c67a85f9ce2)
 
 The transitions between these states are determined by various inputs, sensors, and rules. The FSM provides a structured way to model and understand the behavior of the traffic control system under different scenarios. It helps ensure that the system responds appropriately to changing conditions and events on the road. The specific conditions and transitions would depend on the design and programming of the traffic control system and the specific requirements of the traffic management.
 
