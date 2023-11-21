@@ -23,9 +23,8 @@ The following is a Verilog HDL FSM-D design code and testbench for an Traffic Li
 
 Reports of the coverage and waveforms have been provided.
 
-![WhatsApp Image 2023-10-19 at 11 25 53](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/3c0de847-a5cd-4910-92ec-846896f7fe36)
+![Screenshot from 2023-11-21 16-50-02](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/2c1cf2e0-db4f-481f-8c57-ddb8601d0670)
 
-
-![WhatsApp Image 2023-10-19 at 11 26 16](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/7cc1dffb-56eb-4648-92d9-dc4f0fbe3705)
+![Screenshot from 2023-11-21 16-48-40](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/4e5036f5-2d0e-4c4f-a706-e178d1efb02d)
 
 
