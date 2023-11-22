@@ -19,12 +19,19 @@ The transitions between these states are determined by various inputs, sensors, 
 
 ## Waveforms and Outputs
 
-The following is a Verilog HDL FSM-D design code and testbench for an Traffic Light Controller.
-
 Reports of the coverage and waveforms have been provided.
 
 ![Screenshot from 2023-11-21 16-50-02](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/2c1cf2e0-db4f-481f-8c57-ddb8601d0670)
 
+
+## Code Coverage
+
+![WhatsApp Image 2023-11-22 at 09 38 22](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/f33c8584-3dbd-47ba-a6dd-cccbf93812af)
+
+
+# Code Coverage of Layered Testbench
+
 ![Screenshot from 2023-11-21 16-48-40](https://github.com/akshatva7/Traffic_cont_FSMD/assets/135726741/4e5036f5-2d0e-4c4f-a706-e178d1efb02d)
+
 
 
